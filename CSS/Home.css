@@ -1,0 +1,444 @@
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* Import Roboto fonts from folder */
+@font-face {
+  font-family: Roboto;
+  src: url("../Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+/* 
+    Ensure that body and html uses 100% of website page. 
+    Smooth scroll is used for Features & Get-In-Touch option in nav bar.
+*/
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+/* Use 100% of width for all images */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 26px;
+}
+
+/* Navigaton Bar */
+.top-nav-bar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.top-nav-bar a {
+  float: left;
+  text-align: center;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.top-nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Navbar menus are positioned on right side */
+.main-menu {
+  float: right;
+}
+
+.logo {
+  width: 430px;
+  z-index: 1;
+  position: absolute;
+  top: -50px;
+  left: -10px;
+}
+
+.page-content {
+  background-color: white;
+}
+
+/* Styling for the title section */
+.title {
+  height: 750px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  background-image: url("../Img/Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line-seperator {
+  padding-top: 55px;
+}
+
+/* Add horizontal line */
+hr {
+  display: block;
+  height: 1px;
+  width: 350px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em auto;
+}
+
+/* Play icon */
+.play {
+  padding-top: 55px;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(rgba(0, 153, 204, 0.8) 60%,
+      rgba(255, 255, 255, 1) 62%);
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin: 55px auto;
+  box-shadow: 0px 0px 18px 3px rgba(0, 153, 204);
+  outline: none;
+}
+
+/* triangle */
+.play-button::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  transform-origin: center center;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #fff;
+  z-index: 100;
+  -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+/* Pulse wave*/
+.play-button::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate1 2s;
+  animation: pulsate1 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.75);
+  top: -29%;
+  left: -29%;
+  background: rgba(198, 16, 0, 0);
+}
+
+@-webkit-keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75),
+      0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+
+@keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75),
+      0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+
+.main-features {
+  height: 450px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+.features {
+  padding-top: 37px;
+}
+
+.features p {
+  padding-left: 50px;
+}
+
+.feature-one {
+  float: left;
+  width: 25%;
+}
+
+.feature-two {
+  float: left;
+  width: 50%;
+}
+
+.feature-three {
+  float: right;
+  width: 25%;
+}
+
+.features .feature-icon {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.features .feature-icon span i {
+  font-size: 55px;
+}
+
+.features .feature-text {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.features .feature-text span {
+  color: black;
+  font-size: 30px;
+}
+
+.full-line-seperator hr {
+  display: block;
+  height: 1px;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em auto;
+  opacity: 0.4;
+}
+
+.full-line-seperator {
+  padding-top: 0px;
+}
+
+.gameplay-gallery {
+  height: 1000px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.images {
+  display: none;
+}
+
+.caption {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.number-text {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.active {
+  background-color: #717171;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.get-in-touch {
+  height: 590px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 100, 0.7)),
+    url("../Img/contactImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact #message {
+  height: 200px;
+  width: 1005px;
+  resize: none;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="email"] {
+  width: 358px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.contact .submit-button {
+  width: 280px;
+  height: 54px;
+  background-color: rgba(0, 153, 204);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  height: 330px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  background-color: black;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.line-seperator-bottom {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.social-button {
+  padding-top: 8px;
+}
+
+.fab {
+  padding: 13px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook-f {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest-p {
+  background: #bd081c;
+  color: white;
+}

@@ -1,0 +1,74 @@
+.register-form {
+  height: 1200px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../Img/RegisterImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.line-seperator-register {
+  padding-top: 10px;
+  color: black;
+}
+
+#line {
+  display: block;
+  width: 650px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em auto;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+#register_username,
+#gender,
+#dob,
+#register_email_address,
+#register_password,
+#confirm_password {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 18px 0px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.register_button {
+  background-color: rgb(231, 20, 20);
+  color: white;
+  padding: 16px 20px;
+  margin: 18px 0;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+  opacity: 0.9;
+}
+
+.register-button:hover {
+  opacity: 1;
+}
+
+.to-login p {
+  font-size: 20px;
+}

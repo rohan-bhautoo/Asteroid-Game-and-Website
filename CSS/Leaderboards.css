@@ -1,0 +1,41 @@
+.leaderboards-table {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 100, 0.7)),
+    url("../Img/trophy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.table td {
+  font-size: 25px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  text-align: center;
+}
+
+.table th {
+  font-size: 25px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  text-align: center;
+}
