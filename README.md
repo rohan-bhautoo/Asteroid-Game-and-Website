@@ -8,7 +8,7 @@
   <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
   <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
-  <img alt="Npm" src="https://img.shields.io/badge/>=npm-8.3.1-blue.svg" />
+  <img alt="Npm" src="https://img.shields.io/badge/npm->=8.3.1-blue.svg" />
   <img alt="Node" src="https://img.shields.io/badge/node->=16.14.0-blue.svg" />
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&link=https://linkedin.com/in/rohan-bhautoo" />
 </p>
