@@ -14,9 +14,17 @@
 </p>
 
 ## Description
-> The asteroids breaker game takes place in space where the main objective of the user is to destroy asteroids by shooting lasers. The website and the game was built using HTML, CSS, PHP and JavaScript programming languages.
+> The Asteroids Breaker website enables users to register, login and to play an Asteroid game. Each user will have a unique username which will be verified during registration. The scores of each user will be updated and placed in the Leaderboards page. Local storage, from the browser, is used in order to store user information and scores. Session storage also ensures which user is currently logged in and to update the home page accordingly. 
+> 
+> The website and the game was built using HTML, CSS, PHP and JavaScript programming languages. See other images of the website in the [Screenshot](/Screenshots) folder.
 <p align="center">
   <img width="500" height="800" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Home.png">
+</p>
+
+## Asteroids Breaker
+> Asteroids is a space-themed multidirectional shooter game. The player controls a single spaceship in an asteroid field. The object of the game is to shoot and destroy the asteroids, while not colliding with them. The game becomes harder as the number of asteroids increases.
+<p align="center">
+  <img width="670" height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Play%20Asteroids%20Breaker.png">
 </p>
 
 ### Starting Position
@@ -37,7 +45,7 @@
 ### Collisions
 > The collisions are detected when the ships circle collides with the asteroids circle. Then an explosion animation is shown and the life decreases by one.
 <p align="center">
-  <img width="650" height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Collisions%20Border.png">
+  <img width="670" height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Collisions%20Border.png">
 </p>
 
 ## Prerequisite
@@ -58,7 +66,14 @@
 </p>
 
 ## Usage
-
+> 1 - In order to access the game page, the user need to register a new account or login with an existing account.
+> 
+> 2 - The game can then be accessed by using the Play button on the home page or on the navigation bar.
+> 
+> 3 - Each scores will be saved in the Leaderboards page.
+<p align="center">
+  <img width="670" height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Leaderboards.png">
+</p>
 
 ## Author
 
