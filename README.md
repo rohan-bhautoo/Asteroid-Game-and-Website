@@ -19,7 +19,7 @@
 
 ### 🏠 [Homepage](/PHP/Home.php)
 <p align="center">
-  <img height="800" style="display: block; max-width:230px; max-height:800px; width: auto; height: auto;" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Home.png">
+  <img height="800" style="display: block; max-width:230px; max-height:500px; width: auto; height: auto;" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Home.png">
 </p>
 
 ## Asteroids Breaker
