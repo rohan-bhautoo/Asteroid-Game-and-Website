@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Img/Logo.png">
+  <img width="30%" height="30%" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Img/Logo.png">
 </p>
 <h1 align="center">Asteroids Breaker Website ☄️</h1>
 <p>
@@ -19,13 +19,13 @@
 
 ### 🏠 [Homepage](/PHP/Home.php)
 <p align="center">
-  <img height="800" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Home.png">
+  <img height="800px" style="max-height:800px; width: auto; height: auto;" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Home.png">
 </p>
 
 ## Asteroids Breaker
 > Asteroids is a space-themed multidirectional shooter game. The player controls a single spaceship in an asteroid field. The object of the game is to shoot and destroy the asteroids, while not colliding with them. The game becomes harder as the number of asteroids increases.
 <p align="center">
-  <img height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Play%20Asteroids%20Breaker.png">
+  <img height="400px" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Play%20Asteroids%20Breaker.png">
 </p>
 
 ### Starting Position
@@ -46,7 +46,7 @@
 ### Collisions
 > The collisions are detected when the ships circle collides with the asteroids circle. Then an explosion animation is shown and the life decreases by one.
 <p align="center">
-  <img height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Collisions%20Border.png">
+  <img height="400px" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Collisions%20Border.png">
 </p>
 
 ## Prerequisite
@@ -63,7 +63,7 @@
 > 
 > 4 - In your browser, open localhost/PHP/Home.php
 <p align="center">
-  <img height="300" src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Control-Panel-how-to-run-php-program-Edureka-1.jpg">
+  <img height="300px" src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Control-Panel-how-to-run-php-program-Edureka-1.jpg">
 </p>
 
 ## Usage
@@ -73,7 +73,7 @@
 > 
 > 3 - Each scores will be saved in the Leaderboards page.
 <p align="center">
-  <img height="400" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Leaderboards.png">
+  <img height="400px" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Leaderboards.png">
 </p>
 
 ## Author
