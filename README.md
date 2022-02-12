@@ -17,6 +17,8 @@
 > The Asteroids Breaker website enables users to register, login and to play an Asteroid game. Each user will have a unique username which will be verified during registration. The scores of each user will be updated and placed in the Leaderboards page. Local storage, from the browser, is used in order to store user information and scores. Session storage also ensures which user is currently logged in and to update the home page accordingly. 
 > 
 > The website and the game was built using HTML, CSS, PHP and JavaScript programming languages. See other images of the website in the [Screenshot](/Screenshots) folder.
+
+### 🏠 [Homepage](/PHP/Home.php)
 <p align="center">
   <img width="500" height="800" src="https://github.com/rohan-bhautoo/Asteroid-Game-and-Website/blob/master/Screenshots/Home.png">
 </p>
